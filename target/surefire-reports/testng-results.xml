@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="38002" started-at="2020-04-15T18:29:54 IST" finished-at="2020-04-15T18:30:32 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="38002" started-at="2020-04-15T18:29:54 IST" finished-at="2020-04-15T18:30:32 IST">
+      <class name="com.paragdhoble.github.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.paragdhoble.github.testcases.HomePageTest@4bee09]" name="setUp" is-config="true" duration-ms="17351" started-at="2020-04-15T18:29:54 IST" finished-at="2020-04-15T18:30:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateTittleHomePage()[pri:0, instance:com.paragdhoble.github.testcases.HomePageTest@4bee09]" name="validateTittleHomePage" duration-ms="8" started-at="2020-04-15T18:30:11 IST" finished-at="2020-04-15T18:30:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTittleHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.paragdhoble.github.testcases.HomePageTest@4bee09]" name="tearDown" is-config="true" duration-ms="704" started-at="2020-04-15T18:30:11 IST" finished-at="2020-04-15T18:30:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.paragdhoble.github.testcases.HomePageTest -->
+      <class name="com.paragdhoble.github.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.paragdhoble.github.testcases.LoginPageTest@16c48ac]" name="setup" is-config="true" duration-ms="18528" started-at="2020-04-15T18:30:12 IST" finished-at="2020-04-15T18:30:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginValidation()[pri:0, instance:com.paragdhoble.github.testcases.LoginPageTest@16c48ac]" name="loginValidation" duration-ms="655" started-at="2020-04-15T18:30:31 IST" finished-at="2020-04-15T18:30:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.paragdhoble.github.testcases.LoginPageTest@16c48ac]" name="teardown" is-config="true" duration-ms="720" started-at="2020-04-15T18:30:31 IST" finished-at="2020-04-15T18:30:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.paragdhoble.github.testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
