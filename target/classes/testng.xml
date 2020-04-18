@@ -3,15 +3,17 @@
 <suite name="FREE CRM Application Test Automation Test Suite">
 
     <listeners>
-        <listener class-name="com.paragdhoble.github.ExtentReportListener.ExtentReporterNG" />
+        <listener class-name="com.github.paragdhoble.ExtentReportListener.ExtentReporterNG" />
     </listeners>
 
 
     <test name="Test Automation Pack">
         <classes>
 
-            <class name="com.paragdhoble.github.testcases.LoginPageTest"></class>
-           <!-- <class name="com.paragdhoble.github.testcases.HomePageTest"></class>-->
+            <class name="com.github.paragdhoble.testcases.LoginPageTest"></class>
+            <class name="com.github.paragdhoble.testcases.HomePageTest"></class>
+            <class name="com.github.paragdhoble.testcases.ContactPageTest"></class>
+           <!-- <class name="HomePageTest"></class>-->
 
         </classes>
     </test>
